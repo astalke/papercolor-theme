@@ -1342,6 +1342,9 @@ fun! s:apply_syntax_highlightings()
   exec 'hi cmakeKWinstall' . s:fg_aqua
   exec 'hi cmakeKWtarget_sources' . s:fg_orange
 
+  " C Phoenix Highlighting
+  exec 'hi cPhoenixType' . s:fg_aqua . s:ft_bold
+
   " C Highlighting
   exec 'hi cType' . s:fg_pink . s:ft_bold
   exec 'hi cFormat' . s:fg_olive
